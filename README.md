@@ -8,5 +8,5 @@ $ . build/envsetup.sh
 $ virtualenv2 .
 $ . bin/activate
 $ lunch omni_NB1-eng
-$ make -j$(nproc --all) adbd recoveryimage
+$ LC_ALL=C make -j$(nproc --all) adbd recoveryimage
 ```
