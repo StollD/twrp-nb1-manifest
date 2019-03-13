@@ -32,4 +32,10 @@
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omnirom" revision="android-8.1" />
   <project path="packages/apps/OpenDelta" name="android_packages_apps_OpenDelta" remote="omnirom" revision="android-8.1" />
   <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omnirom" revision="android-8.1" />
+
+  <!-- Include NB1 modifications -->
+  <include name="busybox.xml" />
+  <include name="twrp.xml" />
+  <include name="nb1.xml" />
+
 </manifest>

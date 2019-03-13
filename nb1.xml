@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+  <project name="StollD/android_device_nokia_NB1" path="device/nokia/NB1" remote="github" revision="android-8.1" />
+  <project name="StollD/nokia-umbrella-kernel" path="kernel/nokia/NB1" remote="github" revision="stock" />
+</manifest>

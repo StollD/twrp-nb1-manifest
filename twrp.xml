@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+    <!-- TWRP lives in omnirom, not AOSP -->
+    <remove-project name="platform/bootable/recovery" />
+    <project name="omnirom/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-8.1" />
+</manifest>
