@@ -1,8 +1,8 @@
 ## Getting Started ##
 ---------------
 ```bash
-$ repo init -u git://github.com/StollD/twrp-nb1-manifest.git -b android-8.1
-$ repo sync
+$ repo init --depth=1 -u git://github.com/StollD/twrp-nb1-manifest.git -b android-8.1
+$ repo sync -j12
 $ . build/envsetup.sh
 $ virtualenv2 .
 $ . bin/activate
