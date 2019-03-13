@@ -3,4 +3,5 @@
 <manifest>
   <project name="StollD/android_device_nokia_NB1" path="device/nokia/NB1" remote="github" revision="android-8.1" />
   <project name="StollD/nokia-umbrella-kernel" path="kernel/nokia/NB1" remote="github" revision="stock" />
+  <project name="TeamWin/android_device_qcom_common" path="device/qcom/common" remote="github" revision="android-8.1" />
 </manifest>
